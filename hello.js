@@ -5,3 +5,4 @@ if(number%2==0){
 }else{
     console.log("odd");
 }
+let num=23;
