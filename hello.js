@@ -9,7 +9,18 @@
 // const prompt = require ('prompt-sync')();
 // const name = prompt("what is your name? ");
 // console.log ("hello," " + name +"!");
-    function square (num) {
-        return num*num
+    // function square (num) {
+    //     return num*num
+    // }
+    // console.log(square(1000))
+    function pokemon(name,type){
+        console.log("pokemon name: " + name);
+        type();
+
     }
-    console.log(square(1000))
+    function pikachu () {
+        console.log("pikachu is an electric pokemon.");
+    }
+
+    console.log(pokemon("pikachu", pikachu));
+    
