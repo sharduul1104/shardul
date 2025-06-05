@@ -1,0 +1,15 @@
+body{
+    background-color: chartreuse;
+}
+a{
+    border-style: solid;
+    color: brown;
+    font-size: 50px;
+}
+img{
+    border-style: solid;
+    border-color:brown;
+    padding: 10px;
+    border-width: 10px;
+    border-radius: 10px;
+}
